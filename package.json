@@ -1,0 +1,23 @@
+{
+    "name": "small-mnist",
+    "version": "1.0.0",
+    "description": "small mnist dataset",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "scripts": {
+        "start": "node ./build/index",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "execute": "tsc && node ./build/index"
+    },
+    "keywords": [
+        "mnist",
+        "dataset",
+        "small"
+    ],
+    "author": "Dugagjin Lashi",
+    "license": "MIT",
+    "dependencies": {
+        "run-length": "^0.9.1"
+    }
+}
