@@ -1,6 +1,6 @@
 {
     "name": "small-mnist",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "small mnist dataset",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
@@ -15,9 +15,13 @@
         "dataset",
         "small"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dugagjin/small-mnist.git"
+    },
     "author": "Dugagjin Lashi",
     "license": "MIT",
     "dependencies": {
-        "run-length": "^0.9.1"
+        "run-length": "^1.0.0"
     }
 }
