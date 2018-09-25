@@ -12,16 +12,18 @@ npm install --save small-mnist
 
 ```ts
 import { test, train } from 'small-mnist';
+```
 
-/*
-type of test & train is:
+type of test and train is:
+```ts
 {
     "input": number[][];
     "output": number[][];
     "label": number;
 }[];
-*/
 ```
+
+Input and output fields are in binary label not.
 
 ## Author
 
