@@ -17,8 +17,8 @@ import { test, train } from 'small-mnist';
 type of test and train is:
 ```ts
 {
-    "input": number[][];
-    "output": number[][];
+    "input": number[];
+    "output": number[];
     "label": number;
 }[];
 ```
